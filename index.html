@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tosin's Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      nav {
+        background-color: #666;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+
+      nav a:hover {
+        background-color: #444;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      .project {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .project h2 {
+        margin-top: 0;
+      }
+
+      .review {
+        background-color: #f9f9f9;
+        padding: 10px;
+        margin-top: 10px;
+        border-left: 5px solid #333;
+      }
+
+      .review p {
+        margin: 0;
+      }
+
+      /* Image Styling */
+      .profile-image {
+        display: block;
+        margin: 20px auto;
+        border-radius: 50%;
+        border: 5px solid #333;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        max-width: 200px;
+        animation: pulse 2s infinite alternate;
+      }
+
+      /* Animation */
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tosin's Portfolio</h1>
+    </header>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <img
+      class="profile-image"
+      src="https://terraformbyprometheuswebsite.s3.amazonaws.com/iRon.jpeg"
+      alt="Tosin's Profile Image"
+    />
+    <div class="container">
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project 1: Lorem Ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            vestibulum, eros sit amet efficitur mollis, mauris ligula hendrerit
+            lorem, at tincidunt velit magna a neque.
+          </p>
+          <div class="review">
+            <p>"Great project, loved working with Tosin!" - Client A</p>
+          </div>
+        </div>
+        <div class="project">
+          <h3>Project 2: Dolor Sit Amet</h3>
+          <p>
+            Dolor sit amet, consectetur adipiscing elit. Sed vestibulum, eros
+            sit amet efficitur mollis, mauris ligula hendrerit lorem, at
+            tincidunt velit magna a neque.
+          </p>
+          <div class="review">
+            <p>
+              "Highly recommended! Tosin delivers excellent work." - Client B
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact Tosin for project inquiries at tosin@example.com</p>
+      </section>
+    </div>
+  </body>
+</html>
